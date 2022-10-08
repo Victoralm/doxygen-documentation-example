@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['if_0',['if',['../dd/d5c/_program_8cs.html#a79a944c7f0e25196ca3c5a8638b919b9',1,'Program.cs']]],
-  ['isvalid_1',['IsValid',['../df/d8f/classdoxygen__documentation__example_1_1_data_1_1_models_1_1_user.html#a9dcb9b43a3d0fa9003d4c1c9d921f6b2',1,'doxygen_documentation_example::Data::Models::User']]]
+  ['getall_0',['GetAll',['../d2/dce/classdoxygen__documentation__example_1_1_controllers_1_1_user_controller.html#a2373be97fadf75267ad52dbf3b1fe5e2',1,'doxygen_documentation_example::Controllers::UserController']]],
+  ['getallasync_1',['GetAllAsync',['../d5/d68/interfacedoxygen__documentation__example_1_1_data_1_1_repositories_1_1_i_generic_repository.html#aa1bbf758d8ad2e279c1075e082c5ca63',1,'doxygen_documentation_example.Data.Repositories.IGenericRepository.GetAllAsync()'],['../dd/d8d/classdoxygen__documentation__example_1_1_data_1_1_repositories_1_1_user_repository.html#a55d08d4dea647d53cdc76baea85b0aec',1,'doxygen_documentation_example.Data.Repositories.UserRepository.GetAllAsync()']]],
+  ['getbyid_2',['GetById',['../d2/dce/classdoxygen__documentation__example_1_1_controllers_1_1_user_controller.html#ac70317398e9d84a3112934e6a6cbc3c7',1,'doxygen_documentation_example::Controllers::UserController']]],
+  ['getbyidasync_3',['GetByIdAsync',['../d5/d68/interfacedoxygen__documentation__example_1_1_data_1_1_repositories_1_1_i_generic_repository.html#a60a68c3bfd04549cb96344c43642778e',1,'doxygen_documentation_example.Data.Repositories.IGenericRepository.GetByIdAsync()'],['../dd/d8d/classdoxygen__documentation__example_1_1_data_1_1_repositories_1_1_user_repository.html#aa71e9b45e35e3b90dab3d58b08f9cbb5',1,'doxygen_documentation_example.Data.Repositories.UserRepository.GetByIdAsync()']]],
+  ['getdbconnection_4',['GetDbConnection',['../dc/df1/classdoxygen__documentation__example_1_1_data_1_1_context.html#afe551464b2aae88c5ace3603570546d5',1,'doxygen_documentation_example::Data::Context']]]
 ];

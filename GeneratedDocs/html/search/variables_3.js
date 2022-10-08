@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['configuration_0',['configuration',['../dd/d8d/classdoxygen__documentation__example_1_1_data_1_1_repositories_1_1_user_repository.html#a7a26d57428cccb52e20e77f09d90990f',1,'doxygen_documentation_example::Data::Repositories::UserRepository']]]
+  ['errors_0',['Errors',['../dc/dea/classdoxygen__documentation__example_1_1_controllers_1_1_main_controller.html#ad8948817059235720e73a89d7e3617ae',1,'doxygen_documentation_example::Controllers::MainController']]]
 ];

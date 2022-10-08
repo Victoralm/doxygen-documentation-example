@@ -1,4 +1,19 @@
 var searchData=
 [
-  ['website_0',['WebSite',['../df/d8f/classdoxygen__documentation__example_1_1_data_1_1_models_1_1_user.html#adb0ed212a01483827640afd66235aa28',1,'doxygen_documentation_example::Data::Models::User']]]
+  ['unitofwork_0',['UnitOfWork',['../d2/dec/classdoxygen__documentation__example_1_1_data_1_1_repositories_1_1_unit_of_work.html',1,'UnitOfWork'],['../d2/dec/classdoxygen__documentation__example_1_1_data_1_1_repositories_1_1_unit_of_work.html#aedb215d038b1f8189dd355775ef7fcf5',1,'doxygen_documentation_example.Data.Repositories.UnitOfWork.UnitOfWork()']]],
+  ['unitofwork_2ecs_1',['UnitOfWork.cs',['../dd/d12/_unit_of_work_8cs.html',1,'']]],
+  ['update_2',['Update',['../d2/dce/classdoxygen__documentation__example_1_1_controllers_1_1_user_controller.html#a6fbbbd8dcb04a4e253df73355211e30c',1,'doxygen_documentation_example::Controllers::UserController']]],
+  ['updateasync_3',['UpdateAsync',['../d5/d68/interfacedoxygen__documentation__example_1_1_data_1_1_repositories_1_1_i_generic_repository.html#a6017758a7a5e41dceb605d42d8607cfa',1,'doxygen_documentation_example.Data.Repositories.IGenericRepository.UpdateAsync(T entity)'],['../d5/d68/interfacedoxygen__documentation__example_1_1_data_1_1_repositories_1_1_i_generic_repository.html#a6a5f6dcbbdec7c3b4588a66ddab3ded4',1,'doxygen_documentation_example.Data.Repositories.IGenericRepository.UpdateAsync(List&lt; T &gt; entity)'],['../dd/d8d/classdoxygen__documentation__example_1_1_data_1_1_repositories_1_1_user_repository.html#a0c190ef463a19468f2168882f2d80ff4',1,'doxygen_documentation_example.Data.Repositories.UserRepository.UpdateAsync(User entity)'],['../dd/d8d/classdoxygen__documentation__example_1_1_data_1_1_repositories_1_1_user_repository.html#a4837f6e21f929dbb0fd7094adca8dc7c',1,'doxygen_documentation_example.Data.Repositories.UserRepository.UpdateAsync(List&lt; User &gt; entity)']]],
+  ['useauthorization_4',['UseAuthorization',['../dd/d5c/_program_8cs.html#af6f72d752b2e73aa0292f74bd13237ab',1,'Program.cs']]],
+  ['usehttpsredirection_5',['UseHttpsRedirection',['../dd/d5c/_program_8cs.html#aa4d447fc3129a3aa301d736b8bd04ae9',1,'Program.cs']]],
+  ['user_6',['User',['../df/d8f/classdoxygen__documentation__example_1_1_data_1_1_models_1_1_user.html',1,'doxygen_documentation_example::Data::Models']]],
+  ['user_2ecs_7',['User.cs',['../dc/da5/_user_8cs.html',1,'']]],
+  ['usercontroller_8',['UserController',['../d2/dce/classdoxygen__documentation__example_1_1_controllers_1_1_user_controller.html',1,'UserController'],['../d2/dce/classdoxygen__documentation__example_1_1_controllers_1_1_user_controller.html#a72e9f8015f86390515a5cc71c8f9dec3',1,'doxygen_documentation_example.Controllers.UserController.UserController()']]],
+  ['usercontroller_2ecs_9',['UserController.cs',['../d0/d25/_user_controller_8cs.html',1,'']]],
+  ['usermapper_10',['UserMapper',['../d9/dfa/classdoxygen__documentation__example_1_1_data_1_1_mappings_1_1_user_mapper.html',1,'doxygen_documentation_example::Data::Mappings']]],
+  ['usermapper_2ecs_11',['UserMapper.cs',['../d7/de3/_user_mapper_8cs.html',1,'']]],
+  ['userrepository_12',['UserRepository',['../dd/d8d/classdoxygen__documentation__example_1_1_data_1_1_repositories_1_1_user_repository.html',1,'UserRepository'],['../dd/d8d/classdoxygen__documentation__example_1_1_data_1_1_repositories_1_1_user_repository.html#aeb90e9b74b86c2641ad1c1b597f9ab50',1,'doxygen_documentation_example.Data.Repositories.UserRepository.UserRepository()']]],
+  ['userrepository_2ecs_13',['UserRepository.cs',['../d5/df3/_user_repository_8cs.html',1,'']]],
+  ['uservalidator_14',['UserValidator',['../d3/d29/classdoxygen__documentation__example_1_1_validators_1_1_user_validator.html',1,'UserValidator'],['../d3/d29/classdoxygen__documentation__example_1_1_validators_1_1_user_validator.html#a3854cd9f0273292a05e0424e48ca667c',1,'doxygen_documentation_example.Validators.UserValidator.UserValidator()']]],
+  ['uservalidator_20_2ecs_15',['UserValidator .cs',['../d8/dd8/_user_validator_01_8cs.html',1,'']]]
 ];

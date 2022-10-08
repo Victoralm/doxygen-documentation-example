@@ -9,7 +9,6 @@ var hierarchy =
         [ "UserController", "d2/dce/classdoxygen__documentation__example_1_1_controllers_1_1_user_controller.html", null ]
       ] ]
     ] ],
-    [ "Database", "d0/d97/classdoxygen__documentation__example_1_1_data_1_1_database.html", null ],
     [ "IGenericRepository< T >", "d5/d68/interfacedoxygen__documentation__example_1_1_data_1_1_repositories_1_1_i_generic_repository.html", null ],
     [ "IGenericRepository< User >", "d5/d68/interfacedoxygen__documentation__example_1_1_data_1_1_repositories_1_1_i_generic_repository.html", [
       [ "IUserRepository", "dd/dfe/interfacedoxygen__documentation__example_1_1_data_1_1_repositories_1_1_i_user_repository.html", [
@@ -19,7 +18,6 @@ var hierarchy =
     [ "IUnitOfWork", "d3/dde/interfacedoxygen__documentation__example_1_1_data_1_1_repositories_1_1_i_unit_of_work.html", [
       [ "UnitOfWork", "d2/dec/classdoxygen__documentation__example_1_1_data_1_1_repositories_1_1_unit_of_work.html", null ]
     ] ],
-    [ "MigrationManager", "d0/da8/classdoxygen__documentation__example_1_1_extensions_1_1_migration_manager.html", null ],
     [ "User", "df/d8f/classdoxygen__documentation__example_1_1_data_1_1_models_1_1_user.html", null ],
     [ "UserMapper", "d9/dfa/classdoxygen__documentation__example_1_1_data_1_1_mappings_1_1_user_mapper.html", null ]
 ];

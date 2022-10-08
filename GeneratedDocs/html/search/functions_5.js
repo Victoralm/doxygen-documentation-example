@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['mapcontrollers_0',['MapControllers',['../dd/d5c/_program_8cs.html#a9e2ee3170aa6279b68eefd1651f7d96c',1,'Program.cs']]],
-  ['migratedatabase_1',['MigrateDatabase',['../d0/da8/classdoxygen__documentation__example_1_1_extensions_1_1_migration_manager.html#ab310d1c1fe80768a6a7d41c1e9fb8d76',1,'doxygen_documentation_example.Extensions.MigrationManager.MigrateDatabase()'],['../dd/d5c/_program_8cs.html#ae89582a114c341134d093dcd3637c8cf',1,'MigrateDatabase():&#160;Program.cs']]]
+  ['if_0',['if',['../dd/d5c/_program_8cs.html#a79a944c7f0e25196ca3c5a8638b919b9',1,'Program.cs']]],
+  ['isvalid_1',['IsValid',['../df/d8f/classdoxygen__documentation__example_1_1_data_1_1_models_1_1_user.html#a9dcb9b43a3d0fa9003d4c1c9d921f6b2',1,'doxygen_documentation_example::Data::Models::User']]]
 ];

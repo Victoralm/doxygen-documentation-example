@@ -19,11 +19,7 @@ var annotated_dup =
           [ "UnitOfWork", "d2/dec/classdoxygen__documentation__example_1_1_data_1_1_repositories_1_1_unit_of_work.html", "d2/dec/classdoxygen__documentation__example_1_1_data_1_1_repositories_1_1_unit_of_work" ],
           [ "UserRepository", "dd/d8d/classdoxygen__documentation__example_1_1_data_1_1_repositories_1_1_user_repository.html", "dd/d8d/classdoxygen__documentation__example_1_1_data_1_1_repositories_1_1_user_repository" ]
         ] ],
-        [ "Context", "dc/df1/classdoxygen__documentation__example_1_1_data_1_1_context.html", "dc/df1/classdoxygen__documentation__example_1_1_data_1_1_context" ],
-        [ "Database", "d0/d97/classdoxygen__documentation__example_1_1_data_1_1_database.html", "d0/d97/classdoxygen__documentation__example_1_1_data_1_1_database" ]
-      ] ],
-      [ "Extensions", "da/d9b/namespacedoxygen__documentation__example_1_1_extensions.html", [
-        [ "MigrationManager", "d0/da8/classdoxygen__documentation__example_1_1_extensions_1_1_migration_manager.html", "d0/da8/classdoxygen__documentation__example_1_1_extensions_1_1_migration_manager" ]
+        [ "Context", "dc/df1/classdoxygen__documentation__example_1_1_data_1_1_context.html", "dc/df1/classdoxygen__documentation__example_1_1_data_1_1_context" ]
       ] ],
       [ "Validators", "dd/d29/namespacedoxygen__documentation__example_1_1_validators.html", [
         [ "UserValidator", "d3/d29/classdoxygen__documentation__example_1_1_validators_1_1_user_validator.html", "d3/d29/classdoxygen__documentation__example_1_1_validators_1_1_user_validator" ]
