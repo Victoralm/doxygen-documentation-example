@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['iuserrepository_0',['IUserRepository',['../d6/de3/interfacedoxygen__documentation__example_1_1_repositories_1_1_i_user_repository.html',1,'doxygen_documentation_example::Repositories']]]
+  ['database_0',['Database',['../d0/d97/classdoxygen__documentation__example_1_1_data_1_1_database.html',1,'doxygen_documentation_example::Data']]]
 ];

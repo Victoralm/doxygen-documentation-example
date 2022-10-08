@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['website_0',['WebSite',['../d0/d88/classdoxygen__documentation__example_1_1_models_1_1_user.html#adb0ed212a01483827640afd66235aa28',1,'doxygen_documentation_example::Models::User']]]
+  ['users_0',['Users',['../d3/dde/interfacedoxygen__documentation__example_1_1_data_1_1_repositories_1_1_i_unit_of_work.html#a602c51051469e24caceabd763cb61c88',1,'doxygen_documentation_example.Data.Repositories.IUnitOfWork.Users()'],['../d2/dec/classdoxygen__documentation__example_1_1_data_1_1_repositories_1_1_unit_of_work.html#a602c51051469e24caceabd763cb61c88',1,'doxygen_documentation_example.Data.Repositories.UnitOfWork.Users()']]]
 ];

@@ -1,5 +1,6 @@
-﻿using doxygen_documentation_example.Models;
+﻿using doxygen_documentation_example.Data.Models;
 using FluentValidation;
+using FluentValidation.Results;
 
 namespace doxygen_documentation_example.Validators
 {
@@ -16,6 +17,11 @@ namespace doxygen_documentation_example.Validators
             RuleFor(user => user.Followers).NotNull().NotEmpty().InclusiveBetween(0, 100000000000);
             RuleFor(user => user.Area).NotNull().NotEmpty();
             RuleFor(user => user.Bio).NotNull().NotEmpty();
+        }
+
+        internal ValidationResult Validate(User user)
+        {
+            throw new NotImplementedException();
         }
     }
 }
