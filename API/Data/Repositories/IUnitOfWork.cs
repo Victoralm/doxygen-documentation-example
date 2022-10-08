@@ -2,6 +2,10 @@
 {
     public interface IUnitOfWork
     {
-        IUserRepository Users { get; }
+        Context Session { get; }
+
+        void BeginTransaction();
+        void Commit();
+        void Rollback();
     }
 }

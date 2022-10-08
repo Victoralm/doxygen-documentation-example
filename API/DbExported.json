@@ -1,0 +1,149 @@
+{
+    "type": "database",
+    "name": "DoxygenDocumentationExample",
+    "objects": [
+        {
+            "type": "table",
+            "database": null,
+            "name": "Users",
+            "withoutRowId": true,
+            "ddl": "CREATE TABLE Users (Id VARCHAR PRIMARY KEY UNIQUE NOT NULL, Name TEXT, Email TEXT, WebSite TEXT, Area TEXT, Followers TEXT, Bio TEXT)",
+            "columns": [
+                {
+                    "name": "Id",
+                    "type": "VARCHAR",
+                    "constraints": [
+                        {
+                            "type": "PRIMARY KEY",
+                            "definition": "PRIMARY KEY "
+                        },
+                        {
+                            "type": "UNIQUE",
+                            "definition": "UNIQUE "
+                        },
+                        {
+                            "type": "NOT NULL",
+                            "definition": "NOT NULL"
+                        }
+                    ]
+                },
+                {
+                    "name": "Name",
+                    "type": "TEXT"
+                },
+                {
+                    "name": "Email",
+                    "type": "TEXT"
+                },
+                {
+                    "name": "WebSite",
+                    "type": "TEXT"
+                },
+                {
+                    "name": "Area",
+                    "type": "TEXT"
+                },
+                {
+                    "name": "Followers",
+                    "type": "TEXT"
+                },
+                {
+                    "name": "Bio",
+                    "type": "TEXT"
+                }
+            ],
+            "rows": [
+                [
+                    "72575C80-2C8E-49BE-A05E-29D9EA10B1FA",
+                    "Frankie Boyer",
+                    "frankie_boyer@feeney.co.uk",
+                    "lang.ca",
+                    "Brazil, Keeleyview",
+                    "4541",
+                    "In nihil iste amet. Provident assumenda sapiente dignissimos corrupti velit est magni optio. Asperiores itaque veritatis aliquid dolore in quasi."
+                ],
+                [
+                    "BEB5F101-40E3-48B5-8D4C-F25912441831",
+                    "Orie Cecelia Casper III",
+                    "orie.cecelia.casper_iii@strosin.ca",
+                    "feest.uk",
+                    "Macedonia, Stephenhaven",
+                    "4273",
+                    "Distinctio provident velit nihil quia tempore recusandae molestiae est. Recusandae id sed repellendus aperiam eum vero corporis. Nemo veritatis sint deserunt aut quis nihil."
+                ],
+                [
+                    "A752F042-50AF-4199-B3D3-C7A3BEE18C04",
+                    "Miss Winnifred Peyton Anderson II",
+                    "miss.winnifred.peyton_anderson_ii@schmidtstanton.ca",
+                    "gerlach.us",
+                    "Christmas Island, Wadeshire",
+                    "5117",
+                    "Fuga eos ducimus et perferendis doloribus ut cumque labore. Non aut quos omnis dolorum natus quia sapiente. Debitis dolor totam amet enim ullam harum quo sint."
+                ],
+                [
+                    "706B830E-195B-485E-86E6-A79E566CE5C0",
+                    "Cali Schmidt",
+                    "cali_schmidt@friesen.uk",
+                    "rath.biz",
+                    "Macao, South Zaneland",
+                    "7063",
+                    "Et sed dolorem praesentium molestiae dolor. Consequatur ipsa cumque praesentium et laborum aut id voluptatum esse. Recusandae aut molestiae maiores."
+                ],
+                [
+                    "27A03D6F-E000-43DE-8CC5-261E1A35CC90",
+                    "Emilio Wyman",
+                    "emilio.wyman@altenwerthhomenick.biz",
+                    "shanahan.co.uk",
+                    "Uganda, Angelinaland",
+                    "7159",
+                    "Dolorem eos cum amet qui. Et sunt nihil non architecto iure et et. Asperiores qui voluptas enim."
+                ],
+                [
+                    "8A165FF4-5788-45BB-B497-B4EA14AF1E50",
+                    "Grayce Becker",
+                    "grayce_becker@jacobi.com",
+                    "gerholdrempel.biz",
+                    "Tanzania, Lake Jana",
+                    "4720",
+                    "Fuga repellat maxime ab provident rerum. Tempore aut incidunt vel et. Laboriosam veniam sed et."
+                ],
+                [
+                    "5B1CC135-5E39-450E-8DCC-B163303275FE",
+                    "Prof. Betsy Murazik",
+                    "prof.betsy_murazik@kulas.ca",
+                    "connferry.com",
+                    "Micronesia, Christiansenville",
+                    "7183",
+                    "Rerum perspiciatis rerum laborum vel hic quod doloremque nostrum. Qui maxime fugit facilis quas. Magnam modi commodi aut ullam eos sed facilis est voluptas."
+                ],
+                [
+                    "8086DB79-0BF3-4491-8F8D-EF493936B165",
+                    "Aubree Schaden",
+                    "aubree_schaden@kemmer.biz",
+                    "collierweissnat.ca",
+                    "Nepal, Hillarymouth",
+                    "1308",
+                    "Quod porro perferendis qui ratione voluptatem sed necessitatibus facere eum. Est provident possimus architecto voluptatum cumque nam cumque et. Dolore nihil minus aut voluptates a et quia animi omnis."
+                ],
+                [
+                    "D0580674-7091-47EE-BA57-B7F3FADD269E",
+                    "Mr. Mollie Hirthe DDS",
+                    "mr_mollie_hirthe_dds@morarboehm.biz",
+                    "schneider.co.uk",
+                    "Kyrgyz Republic, Turcottefort",
+                    "8898",
+                    "Et sed distinctio rerum sint explicabo culpa labore. Et vero dolorem ullam architecto voluptate nihil suscipit cupiditate. Aperiam officia consequatur ab molestiae."
+                ],
+                [
+                    "E295593B-2A0E-4752-88D9-3F2CF3F3E530",
+                    "Ayden Gleason",
+                    "ayden_gleason@cormierfeest.co.uk",
+                    "borercartwright.biz",
+                    "Anguilla, Outra",
+                    "5438",
+                    "Quasi optio repellendus soluta laborum ut aut porro officiis consequatur. In error odit id atque earum eos explicabo. Sit et aut et quod voluptatum rem nemo eum autem."
+                ]
+            ]
+        }
+    ]
+}

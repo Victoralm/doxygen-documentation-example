@@ -1,31 +1,28 @@
 ﻿using doxygen_documentation_example.Data.Models;
 using Microsoft.Data.Sqlite;
 using System.Data;
+using static Dapper.SqlMapper;
 
 namespace doxygen_documentation_example.Data
 {
     public class Context
     {
-        //private SqliteConnection _conn;
         private IConfiguration _config;
-        //private string _connString;
 
-        //private readonly IConfiguration _config;
+        private Guid _id;
+        public IDbConnection Connection { get; }
+        public IDbTransaction Transaction { get; set; }
 
         public Context(IConfiguration config)
         {
             this._config = config;
-            //this._conn = conn;
-            //this._connString = this._config.GetConnectionString("Default").ToString();
+            _id = Guid.NewGuid();
+            Connection = new SqliteConnection(_config.GetConnectionString("Default"));
+            Connection.Open();
         }
 
-        //internal SqliteConnection GetDbConnection()
-        //{
-        //    this._conn = new SqliteConnection(this._connString);
-
-        //    return this._conn;
-        //}
-
         public IDbConnection GetDbConnection() => new SqliteConnection(_config.GetConnectionString("Default"));
+
+        public void Dispose() => Connection?.Dispose();
     }
 }

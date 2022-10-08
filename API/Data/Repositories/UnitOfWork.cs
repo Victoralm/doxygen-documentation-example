@@ -1,11 +1,33 @@
-﻿namespace doxygen_documentation_example.Data.Repositories
+﻿using Microsoft.AspNetCore.Http;
+
+namespace doxygen_documentation_example.Data.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {
-        public UnitOfWork(IUserRepository userRepository)
+        public Context Session { get; }
+
+        public UnitOfWork(Context session)
         {
-            Users = userRepository;
+            Session = session;
         }
-        public IUserRepository Users { get; }
+
+        public void BeginTransaction()
+        {
+            Session.Transaction = Session.Connection.BeginTransaction();
+        }
+
+        public void Commit()
+        {
+            Session.Transaction.Commit();
+            Dispose();
+        }
+
+        public void Rollback()
+        {
+            Session.Transaction.Rollback();
+            Dispose();
+        }
+
+        public void Dispose() => Session.Transaction?.Dispose();
     }
 }

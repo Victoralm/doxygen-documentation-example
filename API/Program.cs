@@ -10,26 +10,18 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-    //.AddFluentValidation(options =>
-    //{
-    //    // Validate child properties and root collection elements
-    //    options.ImplicitlyValidateChildProperties = true;
-    //    options.ImplicitlyValidateRootCollectionElements = true;
-
-    //    // Automatic registration of validators in assembly
-    //    options.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly());
-    //});
 
 builder.Services.AddFluentValidationAutoValidation();
 
-builder.Services.AddSingleton<Context>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
+//builder.Services.AddSingleton<Context>(); // Can't be used with Transactions
+builder.Services.AddScoped<Context>();
+builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
+builder.Services.AddTransient<IUserRepository, UserRepository>();
 
 var app = builder.Build();
 
