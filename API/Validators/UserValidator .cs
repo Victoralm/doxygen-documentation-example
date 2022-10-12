@@ -19,9 +19,9 @@ namespace doxygen_documentation_example.Validators
             RuleFor(user => user.Bio).NotNull().NotEmpty();
         }
 
-        internal ValidationResult Validate(User user)
-        {
-            throw new NotImplementedException();
-        }
+        //internal ValidationResult Validate(User user)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

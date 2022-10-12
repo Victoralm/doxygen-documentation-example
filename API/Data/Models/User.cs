@@ -7,8 +7,12 @@ namespace doxygen_documentation_example.Data.Models
     /// Base User class
     /// Used as a model for the objects of type User
     /// </summary>
-    public class User
+    public class User : IAggregateRoot
     {
+        //public User()
+        //{
+        //    IsValid();
+        //}
         /// <summary>
         /// The ID of the User
         /// </summary>
@@ -38,10 +42,23 @@ namespace doxygen_documentation_example.Data.Models
         /// </summary>
         public string Bio { get; set; }
 
-        public bool IsValid()
+        public User() { }
+
+        public User(string name, string email, string webSite, long followers, string area, string bio)
         {
-            ValidationResult result = new UserValidator().Validate(this);
-            return result.IsValid;
+            Id = new Guid().ToString();
+            Name = name;
+            Email = email;
+            WebSite = webSite;
+            Followers = followers;
+            Area = area;
+            Bio = bio;
         }
+
+        //public ValidationResult IsValid()
+        //{
+        //    ValidationResult result = new UserValidator().Validate(this);
+        //    return result;
+        //}
     }
 }

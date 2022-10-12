@@ -41,9 +41,14 @@ namespace doxygen_documentation_example.Data.Repositories
             var sql = "Insert into Users (Id, Name, Email, WebSite, Followers, Area, Bio) VALUES (@Id, @Name, @Email, @WebSite, @Followers, @Area, @Bio)";
             using (var connection = _unitOfWork.Session.Connection)
             {
-                _unitOfWork.BeginTransaction();
-                var result = await connection.ExecuteAsync(sql, entity);
-                _unitOfWork.Commit();
+                int result = 0;
+                //if (entity.IsValid().IsValid)
+                //{
+                    _unitOfWork.BeginTransaction();
+                    result = await connection.ExecuteAsync(sql, entity);
+                    _unitOfWork.Commit();
+                //}
+
                 return result;
             }
         }

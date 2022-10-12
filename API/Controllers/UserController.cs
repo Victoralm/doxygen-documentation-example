@@ -1,12 +1,16 @@
-﻿using doxygen_documentation_example.Data.Models;
+﻿using doxygen_documentation_example.Commands;
+using doxygen_documentation_example.Data.Models;
 using doxygen_documentation_example.Data.Repositories;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using static Dapper.SqlMapper;
 
 namespace doxygen_documentation_example.Controllers
 {
     [Route("Api/[controller]/[action]")]
     public class UserController : MainController
     {
+        private readonly IMediator _mediator;
         private readonly IUserRepository _usersRepository;
 
         public UserController(IUserRepository usersRepository)
@@ -36,10 +40,20 @@ namespace doxygen_documentation_example.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add(User users)
+        public async Task<IActionResult> Add(AddUserCommand addUserCommand)
         {
-            var data = await _usersRepository.AddAsync(users);
-            return Ok(data);
+            //int data = 0;
+            //if (user.IsValid().IsValid)
+            //{
+            //    data = await _usersRepository.AddAsync(user);
+            //    return Ok(data);
+            //} else
+            //{
+            //    this.Errors = (ICollection<string>)user.IsValid().Errors;
+
+            //    return data == null ? NotFound() : CustomResponse(data);
+            //}
+            return CustomResponse(await _mediator.Send(addUserCommand));
         }
 
         [HttpDelete]
